@@ -7,7 +7,7 @@ with Openvpn and Clound Server.
 
 ## Google Clound
 
-Google Clound is very strong but complicated. First time we use Google Clound, I don't know what to do.      
+Google Clound is very strong but complicated. First time I use Google Clound, I don't know what to do.      
 
 1. When we create the instance, we need to have **Allow full access to all Cloud APIs** in **Identity and API access**   
 this will help us transfer file from remote to local.  
