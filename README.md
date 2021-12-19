@@ -34,10 +34,23 @@ this will save us in the future, since google clound have no default password. b
 
 3. Run the script using sudo `sudo ./openvpn-install.sh`     
 
-It is ok to use the default setting for the installation.
+It is ok to use the default setting except the name for the installation.    
+
+4. Change to the root user `su root`.  
+
+5. Using `cd ~` change to the root folder
+6. Using`ls -l`, you will find the file `name.ovpn` and this file is what we need to transfer to the local.
 
 ## Tranfer file from server to local   
 
 1. Create a bucket in **clound storage** in the **Storage** part.  
 
-2. Using the `gsutil cp yourfile.txt gs://your-bucket`
+2. Using the `gsutil cp name.ovpn gs://your-bucket`
+3. Download the file in the bucket to you local computer.
+
+## Link to VPN
+
+1. Download Openvpn client [here](https://openvpn.net/vpn-client/).
+2. Drag the name.ovpn to the client.
+
+Here we done
