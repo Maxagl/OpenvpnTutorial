@@ -11,6 +11,7 @@ Google Clound is very strong but complicated. First time I use Google Clound, I 
 
 1. When we create the instance, we need to have **Allow full access to all Cloud APIs** in **Identity and API access**   
 this will help us transfer file from remote to local.  
+2. remember to change the fire wall rule!!!.important
 
  
 
